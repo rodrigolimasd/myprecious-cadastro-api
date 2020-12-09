@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/myprecious_cadastro_db
+    username: postgres
+    password: postgres
+
+server:
+  servlet:
+    context-path: /cadastro
+  port: 8081
+
